@@ -1,0 +1,159 @@
+
+> authservice@1.0.0 dev
+> nodemon ./src/server.ts
+
+[33m[nodemon] 3.1.10[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: ts,json[39m
+[32m[nodemon] starting `ts-node ./src/server.ts`[39m
+◇ injected env (2) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+hi
+hi
+hi
+monogo db connected successfully
+auth service is running on port 3001
+BadRequestError: request aborted
+    at IncomingMessage.onAborted (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\raw-body\index.js:245:10)
+    at IncomingMessage.emit (node:events:508:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at IncomingMessage._destroy (node:_http_incoming:221:10)
+    at _destroy (node:internal/streams/destroy:122:10)
+    at IncomingMessage.destroy (node:internal/streams/destroy:84:5)
+    at abortIncoming (node:_http_server:845:9)
+    at socketOnClose (node:_http_server:839:3)
+    at Socket.emit (node:events:520:35)
+    at Socket.emit (node:domain:489:12)
+test
+BadRequestError: request aborted
+    at IncomingMessage.onAborted (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\raw-body\index.js:245:10)
+    at IncomingMessage.emit (node:events:508:28)
+    at IncomingMessage.emit (node:domain:489:12)
+    at IncomingMessage._destroy (node:_http_incoming:221:10)
+    at _destroy (node:internal/streams/destroy:122:10)
+    at IncomingMessage.destroy (node:internal/streams/destroy:84:5)
+    at abortIncoming (node:_http_server:845:9)
+    at socketOnClose (node:_http_server:839:3)
+    at Socket.emit (node:events:520:35)
+    at Socket.emit (node:domain:489:12)
+test
+test
+test
+test
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node ./src/server.ts`[39m
+◇ injected env (2) from .env // tip: ⌘ suppress logs { quiet: true }
+hi
+hi
+hi
+monogo db connected successfully
+auth service is running on port 3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node ./src/server.ts`[39m
+◇ injected env (2) from .env // tip: ⌘ enable debugging { debug: true }
+hi
+monogo db connected successfully
+auth service is running on port 3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node ./src/server.ts`[39m
+◇ injected env (2) from .env // tip: ⌘ suppress logs { quiet: true }
+monogo db connected successfully
+auth service is running on port 3001
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node ./src/server.ts`[39m
+◇ injected env (2) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/router/auth.routes.ts(3,10): error TS2305: Module '"../controllers/auth.controller"' has no exported member 'signUpController'.
+
+    at createTSError (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1893:10
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14) {
+  diagnosticCodes: [ 2305 ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node ./src/server.ts`[39m
+◇ injected env (2) from .env // tip: ⌁ auth for agents [www.vestauth.com]
+C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/router/auth.routes.ts(3,10): error TS2305: Module '"../controllers/auth.controller"' has no exported member 'signUpController'.
+
+    at createTSError (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1893:10
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14) {
+  diagnosticCodes: [ 2305 ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node ./src/server.ts`[39m
+◇ injected env (2) from .env // tip: ⌘ custom filepath { path: '/custom/path/.env' }
+C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/router/auth.routes.ts(3,10): error TS2305: Module '"../controllers/auth.controller"' has no exported member 'signUpController'.
+
+    at createTSError (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1893:10
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14) {
+  diagnosticCodes: [ 2305 ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node ./src/server.ts`[39m
+◇ injected env (2) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:859
+    return new TSError(diagnosticText, diagnosticCodes, diagnostics);
+           ^
+TSError: ⨯ Unable to compile TypeScript:
+src/router/auth.routes.ts(3,10): error TS2305: Module '"../controllers/auth.controller"' has no exported member 'signUpController'.
+
+    at createTSError (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:859:12)
+    at reportTSError (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:863:19)
+    at getOutput (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1077:36)
+    at Object.compile (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1433:41)
+    at Module.m._compile (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1617:30)
+    at node:internal/modules/cjs/loader:1893:10
+    at Object.require.extensions.<computed> [as .ts] (C:\Users\Lenovo\OneDrive\Desktop\servora\services\authservice\node_modules\ts-node\src\index.ts:1621:12)
+    at Module.load (node:internal/modules/cjs/loader:1481:32)
+    at Module._load (node:internal/modules/cjs/loader:1300:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:328:14) {
+  diagnosticCodes: [ 2305 ]
+}
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node ./src/server.ts`[39m
+◇ injected env (2) from .env // tip: ⌘ multiple files { path: ['.env.local', '.env'] }
+faliure in connecting monodb connection querySrv ETIMEOUT _mongodb._tcp.cluster0.4houdgv.mongodb.net
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `ts-node ./src/server.ts`[39m
+◇ injected env (2) from .env // tip: ⌘ suppress logs { quiet: true }
+faliure in connecting monodb connection querySrv ETIMEOUT _mongodb._tcp.cluster0.4houdgv.mongodb.net
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
