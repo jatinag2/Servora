@@ -45,7 +45,7 @@ console.log('hello')
 export const signUpController=async(req:Request,res:Response)=>{
    
     try {
-         const {fullName,email,password,otp}=req.body
+        const {fullName,email,password,otp}=req.body
         const userInfo=await signUpService({fullName,email,password,otp})
 
         res.cookie("refreshToken",userInfo.refreshToken,{

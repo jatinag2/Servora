@@ -5,7 +5,6 @@ let channel:Channel;
 export const mail_exchange="mail_exchange"
 export const profile_exchange="profile_exchange"
 export const rabbitMQConnection=async()=>{
-   
     try {
         const connection = await amqplib.connect("amqp://localhost:5672")
         channel=await connection.createChannel()
@@ -15,7 +14,6 @@ export const rabbitMQConnection=async()=>{
     console.log("auth service rabbitmq connection estblished successfully");
     } catch (error) {
         console.log(error);
-        
     }
 }
 

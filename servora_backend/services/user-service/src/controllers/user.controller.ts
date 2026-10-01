@@ -97,7 +97,6 @@ export const uploadProfileImageController=async(req:Request,res:Response,next:Ne
  
 export const removeProfileImageController=async(req:Request,res:Response,next:NextFunction):Promise<void>=>{
     try {
-        
        const userDetails=JSON.parse(req.headers['user_id'] as string)
        const authUserId=userDetails.userId
          if(!authUserId){

@@ -5,9 +5,7 @@ import app from "./app"
 import DBconnect from "./config/db.config";
 import { redisConnect } from "./config/redis.config";
 import { rabbitMQConnection } from "./config/rabbitMQ.config";
-
 const port=process.env.PORT 
-
 const startServer=async()=>{
      try {
         await DBconnect()

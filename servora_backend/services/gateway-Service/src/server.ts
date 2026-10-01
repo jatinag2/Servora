@@ -13,10 +13,12 @@ app.use(cors({
 }
 ))
 
+
 app.use((req:Request, res:Response, next:NextFunction) => {
   console.log("Gateway:", req.method, req.originalUrl);
   next();
 });
+
 
 const authProxy=proxy('http://localhost:3001',{
   proxyReqPathResolver:(req)=>{
